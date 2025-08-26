@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+body{
+    background-color: #EEEDF0;
+}
 
 .top{
     width: 100%;
@@ -24,10 +27,8 @@
 .box{
     width: 1707px;
     height: 895px;
-    background-color:rgb(216, 95, 95);
-    margin-left: 100px;
-    margin-right: 107px;
-    padding-top: 92px;
+    background-color:rgb(255, 255, 255);
+    margin: 92px;
     display: flex;
     border-radius: 20px;
     padding-top: 100px;
@@ -42,6 +43,8 @@
 
 .esquerda{
     padding-left: 60px;
+    margin-left: 200px;
+    align-items: center;
 }
 .foto{
   border-radius: 5px;
@@ -51,10 +54,81 @@
     justify-content: right;
     padding-left: 50px;
     padding-top:  50px;
+
 }
 .fot{
     width: 80px;
     display: flex;
     gap: 20px;
     border-radius: 20px;
+    margin-top: 30px;
+}
+
+.titul{
+    margin-top: 50px;
+}
+
+.sub{
+    margin-top: 25px;
+}
+
+.valor{
+    margin-top: 25px;
+}
+.siz{
+    margin-top: 25px;
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #E0E0E0;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    padding-right: 30px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.compra button{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 50px;
+}
+
+.add{
+    background-color: black;
+    color: white;
+}
+.favorito{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+.compra .favorito{
+    border: 2px solid black;
+}
+.final{
+    margin-top: 20px;
+}
+
+.text a{
+    color: black;
+}
+.ultimo{
+    width: 100%;
+    height: 60px;
+    background-color: #00AEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
