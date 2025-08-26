@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: #00AEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9
+}
+.box{
+    width: 1707px;
+    height: 895px;
+    background-color:rgb(216, 95, 95);
+    margin-left: 100px;
+    margin-right: 107px;
+    padding-top: 92px;
+    display: flex;
+    border-radius: 20px;
+    padding-top: 100px;
+    
+}
+
+.new{
+    background-color: #807a7a;
+    width: 45px;
+    border-radius: 5px;
+}
+
+.esquerda{
+    padding-left: 60px;
+}
+.foto{
+  border-radius: 5px;
+  height: 700px;
+}
+.direita{
+    justify-content: right;
+    padding-left: 50px;
+    padding-top:  50px;
+}
+.fot{
+    width: 80px;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+}

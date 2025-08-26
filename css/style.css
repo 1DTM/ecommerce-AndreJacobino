@@ -83,6 +83,8 @@
     }
     .container{
         background-image: url(../img/6ec7db94744e347b15688aa2c34a81e12f365f88.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 }
